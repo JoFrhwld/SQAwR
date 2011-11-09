@@ -1,0 +1,10 @@
+Package: SQAwR
+Type: Package
+Title: Starting Quantitative Analysis with R
+Version: 1.0
+Date: 2011-07-29
+Author: Josef Fruehwald
+Maintainer: Josef Fruehwakd <JoFrhwld@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyLoad: yes
