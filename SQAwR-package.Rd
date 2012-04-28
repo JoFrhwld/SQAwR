@@ -1,4 +1,4 @@
-\name{anRpackage-package}
+\name{SQAwR}
 \alias{anRpackage-package}
 \alias{anRpackage}
 \docType{package}

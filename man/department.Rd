@@ -1,11 +1,10 @@
 \name{department}
 \alias{department}
 \docType{data}
-\title{
-%%   ~~ data name/kind ... ~~
-}
+\title{Labov's (1966) Department Store Study Data}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+  This is the data set from Labov's well known 1966 rapid and anonymous study
+  of department stores in NYC.
 }
 \usage{data(department)}
 \format{
@@ -18,16 +17,20 @@
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+  In this study, Labov was investigating how frequently New Yorkers would drop
+  their r's in the phrase "fourth floor." He approached employees of three different
+  department stores in NYC (Sak's, Macy's and S. Klein's) and asked them where an item
+  was which had previously determined was on the foorth floor. After noting whether they
+  had dropped the r in either, both, or neither word, he pretended like he hadn't
+  understood, and asked them to repeat the word, noting whether they dropped the r
+  in either, both, or neither word in this more emphatic pronunciation.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+  Labov, William. (1966) \emph{The Social Stratification of English in New York City}.
+  Cambridge: Cambridge University Press
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(department)
-## maybe str(department) ; plot(department) ...
 }
 \keyword{datasets}
