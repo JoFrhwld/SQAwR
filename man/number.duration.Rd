@@ -2,7 +2,7 @@
 \alias{number.duration}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+  The Duration of Read Numeral Sequences
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~

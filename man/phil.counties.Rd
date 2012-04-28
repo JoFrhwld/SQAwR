@@ -2,7 +2,7 @@
 \alias{phil.counties}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+  Median Income of the Greater Philadelphia Area
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
