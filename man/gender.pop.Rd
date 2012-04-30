@@ -5,7 +5,7 @@
   International Populations broken down by Gender
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+  2008 population estimates of world population broken down by gender.
 }
 \usage{data(gender.pop)}
 \format{
@@ -15,9 +15,6 @@
     \item{\code{Gender}}{a factor with levels \code{Female} \code{Male}}
     \item{\code{Population}}{a numeric vector}
   }
-}
-\details{
-  2008 population estimates of world population broken down by gender.
 }
 \source{
   UN Statistics Division, Department of Economic and Social Affairs. \emph{World Population Prospects: The 2008 Revision} \url{http://www.un.org/esa/population/publications/wpp2008/wpp2008_highlights.pdf}

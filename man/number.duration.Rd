@@ -5,7 +5,7 @@
   The Duration of Read Numeral Sequences
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+  I read 93 randomly generated numeral sequences formatted like telephone numbers.
 }
 \usage{data(number.duration)}
 \format{
@@ -18,9 +18,6 @@
     \item{\code{Num}}{ID for the entire numeral sequence}
     \item{\code{Pos}}{Position of the numeral in the sequence}
   }
-}
-\details{
-  I read 93 randomly generated numeral sequences formatted like telephone numbers. 
 }
 
 \examples{
