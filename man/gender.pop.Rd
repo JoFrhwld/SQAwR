@@ -17,16 +17,12 @@
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+  2008 population estimates of world population broken down by gender.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
+  UN Statistics Division, Department of Economic and Social Affairs. \emph{World Population Prospects: The 2008 Revision} \url{http://www.un.org/esa/population/publications/wpp2008/wpp2008_highlights.pdf}
 }
 \examples{
 data(gender.pop)
-## maybe str(gender.pop) ; plot(gender.pop) ...
 }
 \keyword{datasets}

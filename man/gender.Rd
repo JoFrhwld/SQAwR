@@ -2,33 +2,34 @@
 \alias{gender}
 \docType{data}
 \title{
-  International Development Data broken down by Gender
+ Human Development Data broken down by Gender
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+  2006 estimates of human development data from \acronym{UNESCO}
 }
 \usage{data(gender)}
 \format{
   A data frame with 194 observations on the following 9 variables.
   \describe{\item{\code{Country}}{a factor with levels \code{Afghanistan} \code{Albania} \code{Algeria} \code{Andorra} \ldots}
-    \item{\code{LifeExp_Female}}{a numeric vector}
-    \item{\code{LifeExp_Male}}{a numeric vector}
-    \item{\code{Literacy_Female}}{a numeric vector}
-    \item{\code{Literacy_Male}}{a numeric vector}
-    \item{\code{Edu_Female}}{a numeric vector}
-    \item{\code{Edu_Male}}{a numeric vector}
-    \item{\code{Income_Female}}{a numeric vector}
-    \item{\code{Income_Male}}{a numeric vector}
+    \item{\code{LifeExp_Female}}{Female life expectancy in years}
+    \item{\code{LifeExp_Male}}{Male life expectancy in years}
+    \item{\code{Literacy_Female}}{Female literacy rate}
+    \item{\code{Literacy_Male}}{Male literacy rate}
+    \item{\code{Edu_Female}}{Percent of enrolled female students of potential female students}
+    \item{\code{Edu_Male}}{Percent of enrolled male students of potential male students}
+    \item{\code{Income_Female}}{Female estimated earned income in USD}
+    \item{\code{Income_Male}}{Make estimated earned income in USD}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+  \emph{Human Development Report 2006: Beyond scarcity: 
+    Power, poverty and the global water crisis.} \acronym{UNESCO} 
+    \url{http://hdr.undp.org/en/reports/global/hdr2006/}
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+  Rogers, S. \emph{The Sex War Numbers.} March 9, 2009. 
+    \url{http://www.guardian.co.uk/news/datablog/2009/mar/10/gender-educationsgendergap}
 }
 \examples{
 data(gender)

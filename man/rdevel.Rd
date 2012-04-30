@@ -5,7 +5,7 @@
   Contributed Packages to \acronym{CRAN} over Time
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+  The number of contributed packages to \acronym{CRAN} over time.
 }
 \usage{data(rdevel)}
 \format{
@@ -16,17 +16,12 @@
     \item{\code{date}}{a POSIXt}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+  \url{blog.revolutionanalytics.com/2010/01/rs-exponential-package- growth-ctd.html}
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
+
 \examples{
 data(rdevel)
-## maybe str(rdevel) ; plot(rdevel) ...
 }
 \keyword{datasets}
