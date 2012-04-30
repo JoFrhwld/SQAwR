@@ -10,8 +10,8 @@
 \format{
   A data frame with 729 observations on the following 4 variables.
   \describe{
-    \item{\code{r}}{a factor with levels \code{0} \code{r}}
-    \item{\code{store}}{a factor with levels \code{Kleins} \code{Macys} \code{Saks}}
+    \item{\code{r}}{A factor coding whether \dQuote{r} was pronounced or not. \code{0} indicates \dQuote{r} deletion, and \code{r} indications \dQuote{r} pronunciation.}
+    \item{\code{store}}{A factor coding the department stores Labov Visited \code{Kleins} \code{Macys} \code{Saks}}
     \item{\code{emphasis}}{a factor with levels \code{emphatic} \code{normal}}
     \item{\code{word}}{a factor with levels \code{floor} \code{fourth}}
   }
