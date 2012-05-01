@@ -12,10 +12,10 @@
 \format{
   A data frame with 40 observations on the following 4 variables.
   \describe{
-    \item{\code{County}}{a factor with levels \code{Bucks County} \code{Delaware County} \code{Montgomery County} \code{Philadelphia County}}
-    \item{\code{Gender}}{a factor with levels \code{Female} \code{Male}}
+    \item{\code{County}}{A factor with levels for each Philadelphia Area county: \code{Bucks County}, \code{Delaware County}, \code{Montgomery County}, and \code{Philadelphia County}}
+    \item{\code{Gender}}{A factor with levels \code{Female} \code{Male}}
     \item{\code{Income}}{Median income in 2010 dollars}
-    \item{\code{Level}}{a factor with levels \code{LessHigh} \code{High} \code{SomeAssoc} \code{Bachelors} \code{GradProf}}
+    \item{\code{Level}}{A factor with levels \code{LessHigh} (less than high school), \code{HighSchool} (high school or equivalency), \code{SomeAssoc} (some college or an associates degree), \code{Bachelors} (Bachelor's degree), and \code{GradProf} (graduate or professional degree).}
   }
 }
 

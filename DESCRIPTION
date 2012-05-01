@@ -2,10 +2,11 @@ Package: SQAwR
 Type: Package
 Title: Starting Quantitative Analysis with R
 Version: 0.1
-Date: 2012-04-28
+Date: 2012-04-30
 Author: Josef Fruehwald <JoFrhwld@gmail.com>
 Maintainer: Josef Fruehwakd <JoFrhwld@gmail.com>
 Description: This is a package that contains the data sets which
   are discussed in the textbook, "Starting Quantitative Analysis with R".
 License: GPL
-LazyLoad: true
+LazyData: yes
+LazyLoad: yes

@@ -14,7 +14,7 @@
     \item{\code{Begin}}{Numeral start in seconds from the beginning of the recording.}
     \item{\code{End}}{Numeral end in seconds from the beginning of the recording}
     \item{\code{Duration}}{Duration of the numeral in seconds.}
-    \item{\code{Label}}{a factor with levels \code{zero} \code{one} \code{two} \code{three} \code{four} \code{five} \code{six} \code{seven} \code{eight} \code{nine}}
+    \item{\code{Label}}{A factor with levels \code{zero} \code{one} \code{two} \code{three} \code{four} \code{five} \code{six} \code{seven} \code{eight} \code{nine}}
     \item{\code{Num}}{ID for the entire numeral sequence}
     \item{\code{Pos}}{Position of the numeral in the sequence}
   }

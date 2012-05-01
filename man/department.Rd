@@ -8,26 +8,31 @@
 }
 \usage{data(department)}
 \format{
-  A data frame with 729 observations on the following 4 variables.
+  A data frame with 12 observations on the following 7 variables.
   \describe{
-    \item{\code{r}}{A factor coding whether \dQuote{r} was pronounced or not. \code{0} indicates \dQuote{r} deletion, and \code{r} indications \dQuote{r} pronunciation.}
-    \item{\code{store}}{A factor coding the department stores Labov Visited \code{Kleins} \code{Macys} \code{Saks}}
-    \item{\code{emphasis}}{a factor with levels \code{emphatic} \code{normal}}
-    \item{\code{word}}{a factor with levels \code{floor} \code{fourth}}
+  \item{\code{Store}}{A factor coding the department store: \code{Saks},
+      \code{Macys}, and \code{S.Klein}.}
+  \item{\code{Repetition}}{A factor coding the repetition of \dQuote{fourth floor}:
+    \code{casual} for the first time, \code{emphatic} for the repetition.}
+  \item{\code{Word}}{A factor coding each word: \code{fourth} and \code{floor}.}
+  \item{\code{r.pron}}{The count of r-ful pronunciations.}
+  \item{\code{r.ind}}{The count of indeterminite pronunciations.}
+  \item{\code{r.del}}{The count of r-less pronunciations.}
+  \item{\code{r.na}}{The count of missing pronunciations.}
   }
 }
 \details{
   In this study, Labov was investigating how frequently New Yorkers would drop
   their r's in the phrase "fourth floor." He approached employees of three different
-  department stores in NYC (Sak's, Macy's and S. Klein's) and asked them where an item
+  department stores in NYC (Saks 5th Avenue, Macy's and S. Klein's) and asked them where an item
   was which had previously determined was on the foorth floor. After noting whether they
   had dropped the r in either, both, or neither word, he pretended like he hadn't
   understood, and asked them to repeat the word, noting whether they dropped the r
   in either, both, or neither word in this more emphatic pronunciation.
 }
 \source{
-  Labov, William. (1966) \emph{The Social Stratification of English in New York City}.
-  Cambridge: Cambridge University Press
+  Labov, William. (1966 [2006] ) \emph{The Social Stratification of English in New York City}.
+  Table 3.3. p 49. Cambridge: Cambridge University Press
 }
 
 \examples{

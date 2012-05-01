@@ -18,7 +18,7 @@
     \item{\code{Edu_Female}}{Percent of enrolled female students of potential female students}
     \item{\code{Edu_Male}}{Percent of enrolled male students of potential male students}
     \item{\code{Income_Female}}{Female estimated earned income in USD}
-    \item{\code{Income_Male}}{Make estimated earned income in USD}
+    \item{\code{Income_Male}}{Male estimated earned income in USD}
   }
 }
 

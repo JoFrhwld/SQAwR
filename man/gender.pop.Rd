@@ -11,9 +11,9 @@
 \format{
   A data frame with 460 observations on the following 3 variables.
   \describe{
-    \item{\code{Country}}{a factor with levels \code{Afghanistan} \code{Albania} \code{Algeria} \ldots}
-    \item{\code{Gender}}{a factor with levels \code{Female} \code{Male}}
-    \item{\code{Population}}{a numeric vector}
+    \item{\code{Country}}{A factor with levels for each of the 230 countries with population data.}
+    \item{\code{Gender}}{A factor with levels \code{Female} \code{Male}}
+    \item{\code{Population}}{A numeric vector.}
   }
 }
 \source{

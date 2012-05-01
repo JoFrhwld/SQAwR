@@ -11,9 +11,9 @@
 \format{
   A data frame with 20 observations on the following 3 variables.
   \describe{
-    \item{\code{vers}}{a numeric vector}
-    \item{\code{count}}{a numeric vector}
-    \item{\code{date}}{a POSIXt}
+    \item{\code{vers}}{R version}
+    \item{\code{count}}{Number of contributed packages}
+    \item{\code{date}}{Date of version / package count}
   }
 }
 
