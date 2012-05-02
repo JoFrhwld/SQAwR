@@ -8,17 +8,14 @@
 }
 \usage{data(department)}
 \format{
-  A data frame with 12 observations on the following 7 variables.
+  A data frame with 1056 observations on the following 4 variables.
   \describe{
   \item{\code{Store}}{A factor coding the department store: \code{Saks},
       \code{Macys}, and \code{S.Klein}.}
   \item{\code{Repetition}}{A factor coding the repetition of \dQuote{fourth floor}:
     \code{casual} for the first time, \code{emphatic} for the repetition.}
   \item{\code{Word}}{A factor coding each word: \code{fourth} and \code{floor}.}
-  \item{\code{r.pron}}{The count of r-ful pronunciations.}
-  \item{\code{r.ind}}{The count of indeterminite pronunciations.}
-  \item{\code{r.del}}{The count of r-less pronunciations.}
-  \item{\code{r.na}}{The count of missing pronunciations.}
+  \item{\code{r}}{A factor coding the pronunciation of \dQuote{r}, \code{del} for deleted, \code{ind} for indeterminite, and \code{pron} for pronounced. }
   }
 }
 \details{
